@@ -4,13 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48933fa-d8df-40c3-a519-82b10a35cad0" name="Changes" comment="Commit inicial">
-      <change afterPath="$PROJECT_DIR$/src/leitores.py" afterDir="false" />
+    <list default="true" id="d48933fa-d8df-40c3-a519-82b10a35cad0" name="Changes" comment="Commit - Rochel #2: Dados brutos zipados adicionados (2020 à 2025), dicionario de dados adicionado">
+      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR20.csv.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR21.csv.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR22.csv.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR23.csv.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR24.csv.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR25.csv.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados/dicionario/dic_dados_dengue.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/especificações.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resultados/textos/resumo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -47,9 +63,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "rochel",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dados/dicionario" />
+      <recent name="$PROJECT_DIR$/dados/dados brutos" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,11 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1760998723210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit - Rochel #1: Diretórios base adicionados, arquivos .py base adicionados">
+      <option name="closed" value="true" />
+      <created>1760999127998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760999127998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
+    <MESSAGE value="Commit - Rochel #1: Diretórios base adicionados, arquivos .py base adicionados" />
+    <MESSAGE value="Commit - Rochel #2: Dados brutos zipados adicionados (2020 à 2025), dicionario de dados adicionado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - Rochel #2: Dados brutos zipados adicionados (2020 à 2025), dicionario de dados adicionado" />
   </component>
 </project>
