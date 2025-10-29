@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d48933fa-d8df-40c3-a519-82b10a35cad0" name="Changes" comment="Commit - Rochel #2: Dados brutos zipados adicionados (2020 à 2025), dicionario de dados adicionado">
-      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR20.csv.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR21.csv.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR22.csv.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR23.csv.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR24.csv.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados/dados brutos/DENGBR25.csv.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados/dicionario/dic_dados_dengue.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/especificações.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultados/textos/resumo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leitores.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leitores.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +49,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "rochel",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rochel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dados/dicionario" />
@@ -103,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760999127998</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit - Rochel #2: Dados brutos zipados adicionados (2020 à 2025), dicionario de dados adicionado">
+      <option name="closed" value="true" />
+      <created>1761000923499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761000923499</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
