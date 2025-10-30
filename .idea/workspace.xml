@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48933fa-d8df-40c3-a519-82b10a35cad0" name="Changes" comment="Commit - Rochel #2: Dados brutos zipados adicionados (2020 à 2025), dicionario de dados adicionado">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leitores.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leitores.py" afterDir="false" />
-    </list>
+    <list default="true" id="d48933fa-d8df-40c3-a519-82b10a35cad0" name="Changes" comment="Commit - Rochel #3: Função de ler CSV dengue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +26,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;rochelAsc&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN"
   }
-}</component>
+}]]></component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDOP-4LBs6uuSEX",
+        "number": 1
+      },
+      "lastSeen": 1761770537259
+    }
+  ]
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/oficialjoseguilherme/Processamento_estatistico_de_dados.git&quot;,
@@ -103,13 +115,22 @@
       <option name="project" value="LOCAL" />
       <updated>1761000923499</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit - Rochel #3: Função de ler CSV dengue">
+      <option name="closed" value="true" />
+      <created>1761770508637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761770508637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial" />
     <MESSAGE value="Commit - Rochel #1: Diretórios base adicionados, arquivos .py base adicionados" />
     <MESSAGE value="Commit - Rochel #2: Dados brutos zipados adicionados (2020 à 2025), dicionario de dados adicionado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit - Rochel #2: Dados brutos zipados adicionados (2020 à 2025), dicionario de dados adicionado" />
+    <MESSAGE value="Commit - Rochel #3: Função de ler CSV dengue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - Rochel #3: Função de ler CSV dengue" />
   </component>
 </project>
