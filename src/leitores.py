@@ -1,12 +1,13 @@
 import pandas as pan
 
-def leitor_csv(caminho: str):
+def leitorCsv(caminho: str):
     delimitadores = [',', ';', '\t']
 
     for delimitador in delimitadores:
         try:
 
-            quadro = pan.read_csv(caminho, sep=delimitador)
+            quadro = pan.read_csv(caminho,
+                                  sep=delimitador)
 
             print(f"Codigo 1: Separador {delimitador}")
 
@@ -28,15 +29,18 @@ def leitor_csv(caminho: str):
     print("Codigo -1: Falha grave")
     return None
 
-def leitor_geral(caminhos: list):
+def leitorGeral(caminhos: list):
 
-    qds = [leitor_csv(item) for item in caminhos]
+    qds = [leitorCsv(item) for item in caminhos]
 
     qds = [quadro
            for quadro in qds
            if quadro is not None]
 
     if not qds:
-        return pan.DataFrame()
+        return (pan
+                .DataFrame())
 
-    return pan.concat(qds, ignore_index=True)
+    return (pan
+            .concat(qds,
+                    ignore_index=True))

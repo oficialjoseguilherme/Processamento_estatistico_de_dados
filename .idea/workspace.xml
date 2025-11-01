@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48933fa-d8df-40c3-a519-82b10a35cad0" name="Changes" comment="Commit - Rochel #3: Função de ler CSV dengue">
-      <change beforePath="$PROJECT_DIR$/.idea/Processamento_estatistico_de_dados.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Processamento_estatistico_de_dados.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d48933fa-d8df-40c3-a519-82b10a35cad0" name="Changes" comment="Commit - Rochel #4: Função para filtrar dados classificados/desclassificados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analise.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leitores.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leitores.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/padronizador.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/padronizador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plotagem.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/plotagem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/oficialjoseguilherme/Processamento_estatistico_de_dados.git&quot;,
-    &quot;accountId&quot;: &quot;411d89d6-e1fe-4890-9099-16f3de17e742&quot;
+    &quot;accountId&quot;: &quot;9584a1d8-6456-47e7-8ce6-47557d875aab&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -70,19 +70,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "rochel",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Rochel/Desktop/ROCHEL ROOT/Obsidian/Processamento_estatistico_de_dados",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on rochel&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rochel/Desktop/ROCHEL ROOT/Obsidian/Processamento_estatistico_de_dados&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dados/dicionario" />
@@ -138,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761770508637</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit - Rochel #4: Função para filtrar dados classificados/desclassificados">
+      <option name="closed" value="true" />
+      <created>1761883089221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761883089221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +157,7 @@
     <MESSAGE value="Commit - Rochel #1: Diretórios base adicionados, arquivos .py base adicionados" />
     <MESSAGE value="Commit - Rochel #2: Dados brutos zipados adicionados (2020 à 2025), dicionario de dados adicionado" />
     <MESSAGE value="Commit - Rochel #3: Função de ler CSV dengue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit - Rochel #3: Função de ler CSV dengue" />
+    <MESSAGE value="Commit - Rochel #4: Função para filtrar dados classificados/desclassificados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - Rochel #4: Função para filtrar dados classificados/desclassificados" />
   </component>
 </project>
