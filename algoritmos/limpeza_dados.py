@@ -48,36 +48,6 @@ def leitor_geral_especifico_zip(caminhos_zip: list[str], colunas: list[str]) -> 
     print(f"Colunas do DataFrame final: {list(dados_finais.columns)}")
     return dados_finais
 
-def leitor_csv_especifico(caminho: str, colunas: list[str]) -> pd.DataFrame:
-    """
-    Lê um CSV com apenas as colunas necessárias, padroniza nomes para minúsculo para posteriores funções.
-    """
-    try:
-        quadro = pd.read_csv(caminho, usecols=colunas, low_memory=False)
-        # Padronizar nomes de colunas para minúsculo
-        quadro.columns = [c.lower() for c in quadro.columns]
-        return quadro
-    except Exception as e:
-        print(f"Erro ao ler {caminho}: {e}")
-        return pd.DataFrame()
-
-
-def leitor_geral_especifico(caminhos: list[str], colunas: list[str]) -> pd.DataFrame:
-    """
-    Lê todos os arquivos de 'caminhos' usando apenas 'colunas' e concatena.
-    """
-    dados_finais = pd.DataFrame()
-
-    for caminho in caminhos:
-        quadro = leitor_csv_especifico(caminho, colunas)
-        if not quadro.empty:
-            dados_finais = pd.concat([dados_finais, quadro], ignore_index=True)
-
-    print(f"Total de linhas após leitura geral: {len(dados_finais)}")
-    print(f"Colunas do DataFrame final: {list(dados_finais.columns)}")
-    return dados_finais
-
-
 def converter_datas(quadro: pd.DataFrame) -> pd.DataFrame:
     """
     Converte DT_SIN_PRI e DT_NOTIFIC ('dt_sin_pri' e 'dt_notific' depois da padronização para minúsculas) para datetime.
