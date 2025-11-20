@@ -30,8 +30,8 @@ if __name__ == "__main__":
 
     executar_evolucao_temporal_sp(caminhos_zip, colunas_necessarias)
 
-    executar_evolucao_e_gravidade_sp(caminhos_zip, colunas_necessarias)
+    # executar_evolucao_e_gravidade_sp(caminhos_zip, colunas_necessarias)
 
-    executar_perfil_demografico_sp(caminhos_zip, colunas_necessarias)
+    # executar_perfil_demografico_sp(caminhos_zip, colunas_necessarias)
 
-    executar_analise_municipios_sp(caminhos_zip, colunas_necessarias)
+    # executar_analise_municipios_sp(caminhos_zip, colunas_necessarias)

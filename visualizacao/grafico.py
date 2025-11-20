@@ -17,14 +17,14 @@ def grafico_linha_semanal_sp(semana_df: pd.DataFrame):
         return
 
     # Garantir ordenação por ano e semana
-    semana_df = semana_df.sort_values(["NU_ANO", "semana_ep"])
+    semana_df = semana_df.sort_values(["nu_ano", "semana_ep"])
 
     plt.figure(figsize=(12, 6))
     sns.lineplot(
         data=semana_df,
         x="semana_ep",
         y="casos",
-        hue="NU_ANO",
+        hue="nu_ano",
         marker="o"
     )
 
@@ -47,7 +47,7 @@ def grafico_barras_anual_sp(ano_df: pd.DataFrame):
     plt.figure(figsize=(8, 5))
     sns.barplot(
         data=ano_df,
-        x="NU_ANO",
+        x="nu_ano",
         y="casos"
     )
 
